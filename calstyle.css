@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: black;
+}
+#container{
+    width: 900px;
+    height: 550px;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(16.jpg);
+    margin: 10% auto;
+    
+}
+#calci{
+    width: 320px;
+    height: 520px;
+    background-color:#eaedef;
+    margin: 0 auto;
+    top: 15px;
+    position: relative;
+    border-radius: 5%; 
+}
+#display{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919199;
+}
+#ans{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#keyboard{
+    height: 400px;
+}
+.number, .operator, .empty{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.number,.empty{
+    background-color: #eaedef;
+}
+.number,.operator{
+    cursor: pointer;
+
+}
+.number:active{
+    font-size: 17px;
+    font-weight: normal;
+}
+.number:hover{
+    background-color:#c2ecf1;
+}
+.operator:active{
+    font-size: 22px;
+    font-weight: normal;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+}
+button:nth-child(1):hover{
+    background-color: rgba(214, 32, 32, 0.788);
+    
+}
+button:nth-child(2):hover{
+    background-color: rgba(214, 32, 32, 0.788);
+    
+}
+button:nth-child(3):hover{
+    background-color: #919199;
+    
+}
+button:nth-child(4){
+    background-color: #20b2aa;
+    font-size: 25px;
+}
+button:nth-child(8){
+    background-color: #ffa500;
+    font-size: 25px;
+}
+button:nth-child(12){
+    background-color: #f08080;
+    font-size: 25px;
+}
+button:nth-child(16){
+    background-color: #7d93e0;
+    font-size: 25px;
+}
+button:nth-child(20){
+    background-color: #9477af;
+    font-size: 25px;
+}
+button:nth-child(20):hover{
+    background-color: rgba(7, 241, 26, 0.712);
+    font-size: 25px;
+}
